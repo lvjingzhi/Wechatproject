@@ -4,6 +4,11 @@ const app = getApp()
 
 Page({
   data: {
+    item:[{
+      msg: '测试',
+      },{
+      msg: '集成'
+    }],
     motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,

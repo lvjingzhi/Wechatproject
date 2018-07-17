@@ -3,3 +3,14 @@
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: gray;
 }
+
+.page-section{
+  width: 100%;
+  margin-bottom: 60rpx;
+  margin-top: 60rpx;
+
+}
+.page-section-spacing{
+  box-sizing: border-box;
+  padding: 0 80rpx;
+}

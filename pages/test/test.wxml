@@ -1,4 +1,14 @@
 <!-- test.wxml -->
 <view class='container'>
-<text class='test'>{{msg}}</text>
+<text class='test' wx:for='{{msg}}'>{{item}}</text>
+<view class="page-section page-section-spacing">
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image"/>
+    </swiper-item>
+  </block>
+</swiper>
+</view>
 </view>
